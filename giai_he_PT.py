@@ -2,6 +2,8 @@
 # Yêu cầu hoàn chỉnh lại đoạn code
 #để có 1 app giải hệ phương trình có n phương trình n ẩn
 import numpy as np
+import tinker as tk
+from tinker import messagebox
 A = np.array([(1,2),(3,4)])
 B = np.array([5,6])
 A1  = np.linalg.inv(A) # tạo ma trận nghich đảo
@@ -10,5 +12,4 @@ print(B)
 print(A1)
 X = np.dot(A1,B)
 print('Nghiem cua he:',X)
-print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-print('bbbbbbbbbbbbbbbbbbbbbbb')
+
